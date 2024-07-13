@@ -30,3 +30,5 @@ Burning tokens: Anyone should be able to burn tokens, that they own, that are no
 You can copy `DegenToken.sol` file in remix ide . 
 
 and use avalanche fuji network to deploy the code.
+
+Also read `Guide.md ` for thorough setup.
