@@ -1,41 +1,26 @@
-# Project Title
+# DegenToken 
 
-Simple overview of use/purpose.
+An ERC20 based token deployed on avalanche testnet fuji C-Chain
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project demostrate how to deploy in fuji c-chain using solidity 
+we were sucessfully abled to fulfill our requirements.
 
-## Getting Started
+## Challenges
+
+Minting new tokens: The platform should be able to create new tokens and distribute them to players as rewards. Only the owner can mint tokens.
+Transferring tokens: Players should be able to transfer their tokens to others.
+Redeeming tokens: Players should be able to redeem their tokens for items in the in-game store.
+Checking token balance: Players should be able to check their token balance at any time.
+Burning tokens: Anyone should be able to burn tokens, that they own, that are no longer needed.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Fork this repo , and do `npm install`
+* create a `dot env` which should contain your `[private key and snowtrace api key]`
 
-### Executing program
+### Alternatively
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+You can copy `DegenToken.sol` file in remix ide . 
+and use avalanche fuji network to deploy the code.
